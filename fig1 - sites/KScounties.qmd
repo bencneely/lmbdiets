@@ -1,0 +1,84 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.40.11-Bratislava">
+  <identifier>Tiger2010_Census_County</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Tiger2010_Census_County</title>
+  <abstract>The 2010 Census TIGER/Line data was merged together into a statewide layer if originally available by county from the US Census Bureau. The spatial data was then joined to the 2010 Census Summary File 1 via the common GEOID10 field for additional population attribution. These additional attributes include the following population and housing fields: POP2010, WHITE, BLACK, AMERI_ES, ASIAN, HAWN_PI, OTHER, MULT_RACE, HISPANIC, MALES, FEMALES, AGE_UNDER18, AGE_18_UP, AGE_20_24, AGE_25_34, AGE_35_49, AGE_50_64, AGE_65_UP, MED_AGE, MED_AGE_M, MED_AGE_F, OCCUPIED, AVE_HH_SZ, HSEHLD_1_M, HSEHLD_1_F, MARHH_CHD, MARHH_NO_C, MHH_OWNCHLD, FHH_OWNCHLD, FAMILIES, AVE_FAM_SZ, HSE_UNITS, VACANT, OWNER_OCC, and RENTER_OCC. For the US Census 2010 SF1 technical documentation (including field definitions), access the following link: http://www.census.gov/prod/cen2010/doc/sf1.pdf.For US Census 2010 TIGER/Line Shapefiles Technical Documentation, access the following link: http://www.census.gov/geo/www/tiger/tgrshp2010/TGRSHP10SF1.pdf.
+
+In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>boundaries</keyword>
+    <keyword>United States</keyword>
+    <keyword>Polygon</keyword>
+    <keyword>State or Equivalent Entity</keyword>
+    <keyword>Kansas</keyword>
+    <keyword>County</keyword>
+    <keyword>20</keyword>
+    <keyword>U.S.</keyword>
+    <keyword>KS</keyword>
+    <keyword>State or equivalent entity</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Polygon</keyword>
+    <keyword>Census Block</keyword>
+    <keyword>Block</keyword>
+    <keyword>State or equivalent entity</keyword>
+    <keyword>boundaries</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>postal</type>
+      <address>4600 Silver Hill Road, Stop 7400</address>
+      <city>Washington</city>
+      <administrativearea>DC</administrativearea>
+      <postalcode>20233-7400</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name></name>
+    <organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</organization>
+    <position></position>
+    <voice>301-763-1128</voice>
+    <fax></fax>
+    <email>geo.tiger@census.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link mimeType="" type="" size="" name="Esri Feature Class (shapefile or geodatabase)" url="http://www.census.gov/geo/www/tiger" description="" format=""/>
+  </links>
+  <history>Data source: The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</history>
+  <history>Data source: The selected attribute information (fields) are derived from the U.S. Census Bureau's American Fact Finder database.</history>
+  <dates/>
+  <fees></fees>
+  <constraints type="Limitations of use">The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau. These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Geodesy."],AREA["North America - onshore and offshore: Canada - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. Puerto Rico. United States (USA) - Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Hawaii; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming. US Virgin Islands. British Virgin Islands."],BBOX[14.92,167.65,86.45,-40.73]],ID["EPSG",4269]]</wkt>
+      <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+      <srsid>3401</srsid>
+      <srid>4269</srid>
+      <authid>EPSG:4269</authid>
+      <description>NAD83</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-102.05176899999999307" maxy="40.00316600000000022" maxz="0" minz="0" dimensions="2" maxx="-94.58838699999999733" crs="EPSG:4269" miny="36.99301599999999723"/>
+    <temporal>
+      <period>
+        <start>2010-01-01T06:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
