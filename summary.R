@@ -122,6 +122,14 @@ lmb5=lmb4%>%
 nrow(lmb5)
 length(unique(lmb5$id)) # Double check one fish per line
 
+## Number of fish per impd
+x1=xtabs(~impd,lmb5)%>%
+  as_tibble()
+
+## Mean and sd of fish per impd
+mean(x1$n)
+sd(x1$n)
+
 ## Number of fish per impd, year, and month
 tmp=xtabs(~impd+year+month,lmb5)%>%
   as_tibble()
