@@ -1,0 +1,1 @@
+Data and analyses for manuscript titled "Seasonal and ontogenetic variation in Largemouth Bass diets across a gradient of Gizzard Shad abundance in Kansas small impoundments" submitted to North American Journal of Fisheries Management for consideration as an article in the Black Bass 2025 special issue.
